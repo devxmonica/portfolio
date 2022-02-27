@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaesun Lee: Back-End Developer</title>
+
+    <!-- Bootstrap css file -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+    <!-- css file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <!-- Jquery js file -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    
+    <!-- Bootstrap js file -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+    
+    <!-- portfolio js file -->
+    <script src="./js/portfolio.js"></script>
+</head>
+
+<!-- Bootstrap Scrollspy -->
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+    <!-- ============= Start Header Area ============= -->
+    <header class="header">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="https://devxmonica.github.io/portfolio/"><i class="fa-solid fa-seedling fa-lg"></i></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="me-auto"></div>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item active">
+                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://devxmonica.github.io/">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- ============= End Header Area ============= -->
+
+    <!-- ============= Start Main Area ============= -->
+    <main class="site-main">
+
+        <!-- ============= Start Banner Area ============= -->
+        <section class="site-banner">
+            <!-- bootstarp grid layout -->
+            <!-- bootstrap container -->
+            <div class="container">
+                <!-- bootstrap content -->
+                <div class="row">
+                    <!-- row안에 들어가는 아이템의 col-md-숫자 값의 합은 12가 되어야 함. -->
+                    <div class="col-lg-6 col-md-12 site-title">
+                        <h3 class="title-text">안녕하세요?</h3>
+                        <h4 class="title-text">저는 웹 개발자를 지망하는</h4>
+                        <h1 class="title-text">이재선입니다.</h1>
+                    </div>
+                    <div class="col-lg-6 col-md-12 banner-image">
+                        <img src="./img/banner/AREmoji.png" alt="AREmoji" class="rounded-circle img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ============= End Banner Area ============= -->
+
+        <!-- ============= Start About Area ============= -->
+        <section class="about-area" id="about">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about-image">
+                            <img src="./img/my_photo.jpg" alt="about" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 about-title">
+                        <h2>
+                            <span>자기소개</span>
+                        </h2>
+                       
+                        <!-- py-n : top, bottom에 nrem만큼 padding, w-n : width n% -->
+                        <div class="paragraph py-4 w-75">
+                            <p class="para">미디어를 통해 4차 산업혁명에 대해 알게 되었고, 빠르게 발전하는 시대의 변화에 맞춰서 함께 적응할 수 있는 직업을 갖고 싶었습니다.</p>
+                            <p class="para">이젠아카데미컴퓨터학원에서 웹 개발자 과정을 수료하였습니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ============= End About Area ============= -->
+        
+        <!-- ============= Start Portfolio Area ============= -->
+        <section class="portfolio-area" id="portfolio">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="portfolio-title pb-5">
+                            <h2>
+                                <span>oneteampos</span>
+                            </h2>     
+                            <div class="paragraph py-4 w-75">
+                                <p class="para">개발인원: 4인, 소요기간: 3주</p>
+                                <p class="para">Java와 Oracle을 기반으로 제작된 GUI POS 프로그램입니다.</p>
+                                <a href="https://github.com/devxmonica/oneteampos" class="cta-btn">View Github Repo</a>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="portfolio-image">
+                            <img src="./img/portfolio/oneteampos_logo.png" alt="oneteampos logo" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ============= End Portfolio Area ============= -->
+        
+        <!-- ============= Start Contact Area ============= -->
+        <section class="contact-area" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>CONTACT</h2>
+                        <p>devxmonica@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ============= End Contact Area ============= -->
+
+    </main>
+    <!-- ============= End Main Area ============= -->
+    
+    <!-- ============= Start Footer Area ============= -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p><a href="#"><i class="fa fa-angle-up fa-2x" aria-hidden="true"></i></a></p>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/devxmonica"><i class="fab fa-fw fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ============= End Footer Area ============= -->
+
+</body>
+
+</html>
