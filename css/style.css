@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+/* import fonts from fonts.css file */
+@import url(./fonts.css);
+
+/* import css variables */
+@import url(./partials/variables.css);
+
+/* import global styling */
+@import url(./partials/global.css);
+
+/* mouse cursor */
+/* * {
+    cursor: url(https://cur.cursors-4u.net/cursors/cur-9/cur266.cur), auto !important;
+} */
+
+/* start navigation */
+.header .main-menu .navbar .navbar-brand {
+    padding: 0 2rem 0 6rem;
+}
+
+.header .main-menu .navbar {
+    padding: 1rem 4rem;
+}
+
+.navbar-brand i {
+    color: green;
+    padding: 1.7rem;
+}
+
+.navbar-brand i:hover {
+    background: var(--logo-gradient-color);
+    /* -webkit- : google, safari */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header .main-menu .nav-item .nav-link {
+    /* font : 'font-style', 'font-weight', 'font-size', 'line-height', and 'font-family' */
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header .main-menu .navbar-nav .active a {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* background-clip : 배경을 어디에 넣을지 선택 */
+    background-clip: text;
+}
+
+.header .main-menu .navbar-nav a:hover {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* end navigation */
+
+/* start banner */
+.site-main .site-banner {
+    background: url(../img/banner/home-banner.png) no-repeat 50%;
+}
+
+.site-main .site-banner .site-title h3 {
+    padding-top: 20%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after {
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1 {
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4 {
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image>img {
+    padding: 7rem 0;
+    width: 30rem;
+}
+
+/* end banner */
+
+/* start about-area */
+.site-main .about-area {
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2>span {
+    display: block;
+    font: normal bold 50px/60px var(--IBMPlexSansKR);
+    letter-spacing: 15px;
+}
+
+.site-main .about-area .about-title .paragraph>p {
+    padding: .4rem 0;
+}
+
+p.para {
+    color: var(--text-color);
+    font: normal 500 16px/25px var(--nanumsquare);
+}
+
+/* end about-area */
+
+/* start portfolio-area */
+.site-main .portfolio-area {
+    padding: 8rem 5rem;
+}
+
+.site-main .portfolio-area .portfolio-title h2>span {
+    display: block;
+    font: normal bold 30px/40px var(--IBMPlexSansKR);
+}
+
+.site-main .portfolio-area .cta-btn {
+    padding: 0.8rem 2.2rem;
+    width: 50%;
+    font: normal 500 16px/20px var(--IBMPlexSansKR);
+    position: relative;
+    background-color: transparent;
+    border: 1px solid black;
+    color: var(--text-color);
+    letter-spacing: 3px;
+    transition: all 0.4s;
+    overflow: hidden;
+    display: block;
+    color: black;
+    text-align: center;
+}
+
+.site-main .portfolio-area .cta-btn:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: var(--gradient-color);
+    top: 100%;
+    left: 0;
+    transition: all 0.4s;
+    z-index: -1;
+}
+
+.site-main .portfolio-area .cta-btn:hover:before {
+    transform: translateY(-100%);
+}
+
+/* end portfolio-area */
+
+/* start contact-area */
+.site-main .contact-area {
+    padding: 8rem 5rem;
+    color: white;
+    background: var(--gradient-color);
+}
+
+/* end contact-area */
+
+/* start footer-area */
+.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #2c3e50;
+    color: white;
+}
+
+.fa-angle-up {
+    color: white;
+}
+
+.fa-angle-up:hover {
+    color: white;
+    animation: bounce .3s ease infinite alternate;
+}
+
+@keyframes bounce {
+    100% {
+        top: -20px;
+        text-shadow: 0 1px 0 #CCC,
+            0 2px 0 #CCC,
+            0 3px 0 #CCC,
+            0 4px 0 #CCC,
+            0 5px 0 #CCC,
+            0 6px 0 #CCC,
+            0 7px 0 #CCC,
+            0 8px 0 #CCC,
+            0 9px 0 #CCC,
+            0 50px 25px rgba(0, 0, 0, .2);
+    }
+}
+
+.btn-outline-light {
+    border: none;
+}
+
+/* end footer-area */

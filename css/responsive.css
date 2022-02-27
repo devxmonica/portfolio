@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@media only screen and (max-width: 480px) {
+    .header .main-menu .navbar,
+    .header .main-menu .navbar .navbar-brand {
+        margin: 0;
+    }
+
+    .site-main .site-banner .site-title h1 {
+        font-size: 41px;
+    }
+
+    .site-main .site-banner .site-title h3 {
+        font-size: 35px;
+    }
+
+    .site-main .site-banner .site-title h4 {
+        font-size: 30px;
+    }
+
+    
+    .site-main .portfolio-area .cta-btn {
+        padding: .8rem 0rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .site-main .site-banner .site-title h1 {
+        font-size: 41px;
+    }
+    
+    .site-main .site-banner .site-title h3 {
+        font-size: 35px;
+    }
+    
+    .site-main .site-banner .site-title h4 {
+        font-size: 30px;
+    }
+    
+    .site-main .about-area .about-title h2 > span {
+        font-size: 30px;
+        letter-spacing: 10;
+    }
+
+    .site-main .about-area .about-title p {
+        padding: 0%;
+    }
+}

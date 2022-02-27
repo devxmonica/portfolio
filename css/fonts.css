@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* @import */
+/* SourceSansPro */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* nanumsquare */
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+/* @font-face */
+@font-face {
+    font-family: "IBMPlexSansKR";
+    src: url(../fonts/IBM_Plex_Sans_KR/IBMPlexSansKR-Regular.ttf);
+}
+
+@font-face{
+   font-family: "SourceSansPro";
+   src:url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+}
+
+@font-face{
+   font-family: "Roboto";
+   src:url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+}
+
+@font-face {
+   font-family: "nanumsquare";
+   src: url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+}
