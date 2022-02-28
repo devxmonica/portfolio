@@ -10,9 +10,9 @@
 @import url(./partials/global.css);
 
 /* mouse cursor */
-/* * {
+* {
     cursor: url(https://cur.cursors-4u.net/cursors/cur-9/cur266.cur), auto !important;
-} */
+}
 
 /* start navigation */
 .header .main-menu .navbar .navbar-brand {
