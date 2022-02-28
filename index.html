@@ -10,6 +10,9 @@
     <!-- Bootstrap css file -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
 
+    <!-- aos css file -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- font awesome icons -->
     <link rel="stylesheet" href="./css/all.min.css">
 
@@ -17,19 +20,25 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
 
+
     <!-- Jquery js file -->
     <script src="./js/jquery-3.6.0.min.js"></script>
     
     <!-- Bootstrap js file -->
     <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/bootstrap.bundle.js"></script>
+
+    <!-- aos js file -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     
     <!-- portfolio js file -->
     <script src="./js/portfolio.js"></script>
+
 </head>
 
 <!-- Bootstrap Scrollspy -->
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+    <script>AOS.init();</script>
 
     <!-- ============= Start Header Area ============= -->
     <header class="header">
@@ -93,7 +102,7 @@
         <!-- ============= End Banner Area ============= -->
 
         <!-- ============= Start About Area ============= -->
-        <section class="about-area" id="about">
+        <section class="about-area" id="about" data-aos="fade-in"  data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
@@ -118,7 +127,7 @@
         <!-- ============= End About Area ============= -->
         
         <!-- ============= Start Portfolio Area ============= -->
-        <section class="portfolio-area" id="portfolio">
+        <section class="portfolio-area" id="portfolio" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
@@ -144,7 +153,7 @@
         <!-- ============= End Portfolio Area ============= -->
         
         <!-- ============= Start Contact Area ============= -->
-        <section class="contact-area" id="contact">
+        <section class="contact-area" id="contact" data-aos="fade-in">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
